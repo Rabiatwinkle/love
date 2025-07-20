@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I Love Rabia</title>
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" type="text/css" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: "Satisfy", cursive;
+      background: linear-gradient(45deg, #09447B 0%, #8f0044 100%);
+      overflow: hidden;
+    }
+
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 200;
+      width: 90%;
+      max-width: 1000px;
+      margin: 0;
+      font-size: 4vmin;
+      font-weight: normal;
+      text-align: center;
+      background: linear-gradient(45deg, #09447B 0%, #8f0044 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transform: translate(-50%, -50%);
+      word-wrap: break-word;
+      line-height: 1.6;
+    }
+
+    h1::selection {
+      background: #ff5284;
+    }
+
+    h1:hover {
+      background: none;
+      -webkit-background-clip: initial;
+      -webkit-text-fill-color: initial;
+      mix-blend-mode: color-dodge;
+    }
+
+    h1 span {
+      transition: color 0.3s;
+      display: inline-block;
+    }
+
+    h1 span::selection {
+      background: #ff5284;
+      color: #fff;
+      -webkit-text-fill-color: #fff;
+    }
+
+    .light {
+      position: absolute;
+      margin: -1vmin 0 0 -1vmin;
+      height: 2vmin;
+      width: 2vmin;
+      border-radius: 100%;
+      mix-blend-mode: color-dodge;
+      transition: box-shadow 2s;
+    }
+
+    .light::before,
+    .light::after {
+      position: absolute;
+      bottom: 0;
+      height: 150%;
+      width: 100%;
+      content: '';
+      background: #e0144d;
+      border-radius: 2em 2em 0 0;
+    }
+
+    .light::before {
+      left: 50%;
+      transform: rotate(-45deg);
+      transform-origin: left bottom;
+    }
+
+    .light::after {
+      right: 50%;
+      transform: rotate(45deg);
+      transform-origin: right bottom;
+    }
+
+    h1:hover + .light {
+      box-shadow:
+        0 0 0 45vmin hsla(150, 100%, 60%, .125),
+        0 0 0 89vmin hsla(64, 100%, 60%, .125),
+        0 0 0 11vmin hsla(179, 100%, 60%, .125),
+        0 0 0 131vmin hsla(133, 100%, 60%, .125),
+        0 0 0 66vmin hsla(243, 100%, 60%, .125),
+        0 0 0 3vmin hsla(175, 100%, 60%, .125),
+        0 0 0 124vmin hsla(55, 100%, 60%, .125),
+        0 0 0 70vmin hsla(100, 100%, 60%, .125),
+        0 0 0 145vmin hsla(230, 100%, 60%, .125),
+        0 0 0 22vmin hsla(60, 100%, 60%, .125),
+        0 0 0 101vmin hsla(200, 100%, 60%, .125),
+        0 0 0 27vmin hsla(44, 100%, 60%, .125),
+        0 0 0 115vmin hsla(121, 100%, 60%, .125),
+        0 0 0 38vmin hsla(90, 100%, 60%, .125),
+        0 0 0 140vmin hsla(33, 100%, 60%, .125),
+        0 0 0 94vmin hsla(75, 100%, 60%, .125),
+        0 0 0 15vmin hsla(250, 100%, 60%, .125),
+        0 0 0 87vmin hsla(12, 100%, 60%, .125),
+        0 0 0 132vmin hsla(199, 100%, 60%, .125),
+        0 0 0 120vmin hsla(88, 100%, 60%, .125);
+    }
+
+    @keyframes love {
+      0%, 100% { color: hsl(0, 80%, 55%); }
+      10% { color: hsl(60, 80%, 55%); }
+      20% { color: hsl(120, 80%, 55%); }
+      30% { color: hsl(180, 80%, 55%); }
+      40% { color: hsl(240, 80%, 55%); }
+      50% { color: hsl(300, 80%, 55%); }
+      60% { color: hsl(360, 80%, 55%); }
+    }
+
+    h1:hover span {
+      animation: love 4s infinite;
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 5vmin;
+        line-height: 1.8;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Proposal Data -->
+  <h1 style="text-align: center;">
+   <span>T</span><span>o</span> <span>M</span><span>y</span> <span>J</span><span>a</span><span>n</span><span>,</span> 
+  <span>R</span><span>a</span><span>b</span><span>i</span><span>a</span> 
+  <span>T</span><span>w</span><span>i</span><span>n</span><span>k</span><span>l</span><span>e</span> <span>💖</span> <br>
+
+  <span>K</span><span>e</span><span>h</span><span>n</span><span>a</span> <span>t</span><span>o</span><span>h</span> <span>s</span><span>i</span><span>r</span><span>f</span> <span>i</span><span>t</span><span>n</span><span>a</span> <span>h</span><span>a</span><span>i</span><span>…</span>
+
+  <span>M</span><span>a</span><span>g</span><span>a</span><span>r</span> <span>l</span><span>a</span><span>f</span><span>z</span><span>o</span><span>n</span> <span>m</span><span>e</span><span>i</span><span>n</span> <span>w</span><span>o</span><span>h</span> <span>j</span><span>a</span><span>z</span><span>b</span><span>a</span><span>a</span><span>t</span> 
+  <span>k</span><span>a</span><span>i</span><span>s</span><span>e</span> <span>b</span><span>h</span><span>a</span><span>r</span><span>u</span><span>n</span><span>,</span>
+
+  <span>J</span><span>o</span> <span>h</span><span>a</span><span>r</span> <span>s</span><span>u</span><span>b</span><span>a</span><span>h</span> <span>m</span><span>e</span><span>r</span><span>i</span> 
+  <span>t</span><span>e</span><span>r</span><span>i</span> <span>m</span><span>u</span><span>s</span><span>k</span><span>u</span><span>r</span><span>a</span><span>h</span><span>a</span><span>t</span> <span>s</span><span>e</span> 
+  <span>h</span><span>o</span><span>t</span><span>i</span> <span>h</span><span>a</span><span>i</span><span>,</span>
+
+  <span>A</span><span>u</span><span>r</span> <span>h</span><span>a</span><span>r</span> <span>r</span><span>a</span><span>a</span><span>t</span> <span>s</span><span>i</span><span>r</span><span>f</span> <span>t</span><span>e</span><span>r</span><span>a</span> 
+  <span>k</span><span>h</span><span>a</span><span>y</span><span>a</span><span>l</span> <span>l</span><span>e</span><span>k</span><span>a</span><span>r</span> 
+  <span>s</span><span>o</span> <span>j</span><span>a</span><span>t</span><span>a</span> <span>h</span><span>o</span><span>o</span><span>n</span><span>.</span>
+
+  <span>R</span><span>a</span><span>b</span><span>i</span><span>a</span> <span>—</span>
+
+  <span>T</span><span>u</span><span>m</span> <span>m</span><span>e</span><span>r</span><span>i</span> <span>T</span><span>w</span><span>i</span><span>n</span><span>k</span><span>l</span><span>e</span> 
+  <span>h</span><span>o</span><span>,</span> <span>j</span><span>i</span><span>s</span><span>e</span> <span>d</span><span>e</span><span>k</span> <span>k</span><span>a</span><span>r</span> 
+  <span>a</span><span>n</span><span>d</span><span>h</span><span>e</span><span>r</span><span>o</span><span>n</span> <span>m</span><span>e</span><span>i</span><span>n</span> 
+  <span>b</span><span>h</span><span>i</span> <span>r</span><span>o</span><span>s</span><span>h</span><span>n</span><span>i</span> <span>m</span><span>i</span><span>l</span><span>t</span><span>i</span> <span>h</span><span>a</span><span>i</span><span>.</span>
+
+  <span>T</span><span>u</span><span>m</span><span>h</span><span>a</span><span>r</span><span>i</span> <span>h</span><span>a</span><span>n</span><span>s</span><span>i</span><span>,</span> 
+  <span>m</span><span>e</span><span>r</span><span>i</span> <span>z</span><span>i</span><span>n</span><span>d</span><span>a</span><span>g</span><span>i</span> <span>k</span><span>a</span> 
+  <span>g</span><span>e</span><span>e</span><span>t</span> <span>h</span><span>a</span><span>i</span><span>.</span>
+
+  <span>T</span><span>u</span><span>m</span><span>h</span><span>a</span><span>r</span><span>a</span> <span>n</span><span>a</span><span>a</span><span>m</span> 
+  <span>h</span><span>i</span> <span>k</span><span>a</span><span>f</span><span>i</span> <span>h</span><span>a</span><span>i</span> 
+  <span>m</span><span>e</span><span>r</span><span>e</span> <span>d</span><span>i</span><span>l</span> 
+  <span>k</span><span>o</span> <span>s</span><span>u</span><span>k</span><span>o</span><span>o</span><span>n</span> <span>d</span><span>e</span><span>n</span><span>e</span> 
+  <span>k</span><span>e</span> <span>l</span><span>i</span><span>y</span><span>e</span><span>.</span>
+
+  <span>S</span><span>o</span> <span>t</span><span>o</span><span>d</span><span>a</span><span>y</span><span>,</span> 
+  <span>f</span><span>r</span><span>o</span><span>m</span> <span>t</span><span>h</span><span>e</span> 
+  <span>d</span><span>e</span><span>e</span><span>p</span><span>e</span><span>s</span><span>t</span> 
+  <span>c</span><span>o</span><span>r</span><span>n</span><span>e</span><span>r</span> 
+  <span>o</span><span>f</span> <span>m</span><span>y</span> <span>h</span><span>e</span><span>a</span><span>r</span><span>t</span><span>…</span>
+
+  <span>M</span><span>a</span><span>i</span><span>n</span> <span>t</span><span>u</span><span>m</span><span>s</span><span>e</span> 
+  <span>e</span><span>k</span> <span>b</span><span>a</span><span>a</span><span>t</span> 
+  <span>k</span><span>e</span><span>h</span><span>n</span><span>a</span> <span>c</span><span>h</span><span>a</span><span>h</span><span>t</span><span>a</span> 
+  <span>h</span><span>o</span><span>o</span><span>n</span><span>:</span>
+
+  <span>💍</span> <span>R</span><span>a</span><span>b</span><span>i</span><span>a</span> <span>T</span><span>w</span><span>i</span><span>n</span><span>k</span><span>l</span><span>e</span><span>,</span> 
+  <span>w</span><span>i</span><span>l</span><span>l</span> <span>y</span><span>o</span><span>u</span> <span>b</span><span>e</span> 
+  <span>m</span><span>i</span><span>n</span><span>e</span> <span>f</span><span>o</span><span>r</span><span>e</span><span>v</span><span>e</span><span>r</span><span>?</span>
+
+  <span>I</span> <span>l</span><span>o</span><span>v</span><span>e</span> <span>y</span><span>o</span><span>u</span><span>.</span>
+  </h1>
+
+  <div class="light"></div>
+
+  <script>
+    const light = document.querySelector('.light');
+    let px = 0, py = 0;
+    let touches = [];
+
+    function follow(event) {
+      px = event.pageX;
+      py = event.pageY;
+
+      if (px == null || py == null && event.touches && event.touches.length > 0) {
+        touches = event.touches;
+        px = touches[0].pageX;
+        py = touches[0].pageY;
+      }
+
+      light.style.transform = `translate(${px}px, ${py}px) rotate(25deg)`;
+    }
+
+    window.addEventListener('mousemove', follow, false);
+    window.addEventListener('touchmove', follow, false);
+  </script>
+</body>
+</html>
